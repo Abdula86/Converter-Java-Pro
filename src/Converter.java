@@ -8,6 +8,8 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System)
+        Scanner scanner = new Scanner(System);
+        System.out.println("Выберите операцию (1 - мили в километры, 2 - километры в мили): ");
+        int choice = scanner.nextInt();
     }
 }
